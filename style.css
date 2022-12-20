@@ -8,21 +8,25 @@
 }
 body{
     font-family: 'Courier New', Courier, monospace;
+   
     
 }
 nav{
-    background:#0082e6;
-    height:80px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTo9_tTYwr9kuFcB0YY4Av-GKKtBk53b4OAcSBkkYwrp3AI1HNgC_MuS3MuvqxU3Xe2SK0&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
     width:100%;
 
 }
 label.logo{
-    color:white;
+    color:rgb(16, 103, 10);
     font-size:35px;
     line-height:80px;
-    padding:0 100px;
+    padding:400px 400px;
     font-weight: bold;
-
+    font-family:'Times New Roman', Times, serif;
+    
 
 }
 nav ul{
@@ -32,23 +36,23 @@ nav ul{
 nav ul li{
     display:inline-block;
     line-height: 80px;
-    margin: 0 5px;
+    
 
 }
 nav ul li a{
-    color:white;
+    color:rgb(147, 255, 232);
     font-size: 17px;
     border-radius: 3px;
     text-transform: uppercase;
 
 }
 a.active,a:hover{
-    background:#1b9bff;
+    background:#01443c;
     transition:.5s;
 
 }
 .checkbutton{
-    color:white;
+    color:rgba(0, 0, 0, 0.86);
     font-size:30px;
     float:right;
     line-height:80px;
@@ -64,10 +68,11 @@ a.active,a:hover{
     label.logo{
             font-size:30px;
             padding-left:50px;
+            
     }
     nav ul li a{
         font-size: 16px;
-
+        
     }
 }
 @media (max-width:858px){
@@ -75,4 +80,134 @@ a.active,a:hover{
     display:block;
 }
 
+}
+
+p{
+    font-family:cursive;
+    float:left;
+}
+
+body.HOME{
+    background-image: url('https://github.com/TeamClimateCHANGE/TeamClimateChangeSDG13/blob/main/DEVASYABESTPERSON.png?raw=true');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.img1{
+width:15%;
+height:15%;
+float:right;
+}
+.img2{
+width:25%;
+height:25%;
+float:left;
+}
+.content1{
+    margin:0;
+    padding-top: -50px;
+}
+.img3{
+width: 20%;
+height:10%;
+float:right;
+padding-bottom:-50px;
+}
+.img4{
+width:20%;
+height:20%;
+float:left;
+}
+.img5{
+    float:right;
+}
+.img6{
+    width:20%;
+    height:20%;
+    float:right;
+}
+.p1{
+    text-align: center;
+
+}
+.p2{
+    text-align: center;
+    
+}
+.p3{
+    text-align: center;
+   
+}
+.p4{
+    margin-left:90px;
+  
+}
+.img7{
+    width:25%;
+    height:25%;
+    float:right;
+}
+.p5{
+text-align:center;
+
+}
+.myDiv6{
+    margin-left:200px;
+    
+}
+.myDiv7{
+    margin-left:200px;
+    
+}
+.p6{
+    margin-left:300px;
+}
+.p7{
+    text-align: center;
+    margin-left: -200px;
+}
+.img8{
+    width:20%;
+    height:30%;
+    float:left;
+    margin-left:-200px;
+}
+.p9{
+    text-align: center;
+    margin-left: 100px;
+}
+.p10{
+    margin-left:100px ;
+    float:right;
+    margin-top:-100px;
+}
+.ACTIONS{
+    background-color:  #a2d48a;
+}
+.PORTFOLIO{
+    background-color: cornflowerblue;
+}
+.SUPPORT{
+    background-color: rgb(101, 83, 255);
+}
+.p12{
+    margin-top:180px;
+}
+.p11{
+    text-align: center;
+}
+.supportDiv{
+    background-color: black;
+    color:black;
+    display:block;
+    text-align: center;
+    font-size:xx-large;
+
+}
+
+.uzi{
+text-align: center;
+margin-left:250px;
+font-size: large;
+font-weight: 1000;
 }
